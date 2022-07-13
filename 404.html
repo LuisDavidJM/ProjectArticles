@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>No se ha encontrado la pagina</title>
+
+    <link rel="icon" href="/img/LogoLow.png">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style-query.css">
+    <link rel="stylesheet" href="/css/style-article.css">
+    <link rel="stylesheet" href="/css/style-article-query.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #articles .principal p {
+            text-align: center;
+        }
+        .aside {
+            height: 400px;
+        }
+    </style>
+
+<body>
+    <div class="conteiner">
+
+        <div class="head">
+            <header class="header">
+                <button id="switch" class="mode">
+                    <span><img src="/img/sun.png" alt="sun"></span>
+                    <span><img src="/img/moon.png" alt="moon"></span>
+                </button>
+                <img width="400" height="170" src="/img/logo.webp" alt="luiselectronic" class="logo">
+                <h3 style="color:white;">LuisElectronic</h3>
+            </header>
+            <nav class="nav">
+                <div class="nav1">
+                    <ul>
+                        <li><a href="https://www.luiselectronic.com/">INICIO</a></li>
+                        <li><a href="https://www.luiselectronic.com/electronica/menu">ELECTRÓNICA</a></li>
+                        <li><a href="https://www.luiselectronic.com/programacion/menu">PROGRAMACIÓN</a></li>
+                        <li><a href="https://www.luiselectronic.com/tecnologia/menu">TECNÓLOGIA</a></li>
+                        <li><a href="https://www.luiselectronic.com/sistemas/menu">SISTEMAS</a></li>
+                        <li><a href="https://www.luiselectronic.com/otros/menu">OTROS</a></li>
+                    </ul>
+                </div>
+                <div class="nav2">
+                    <ul>
+                        <li><a href="https://www.facebook.com/Luis.Electronic.2" target="_blank"><img width="20" height="20" src="/img/facebook.webp" alt="facebook"></a></li>
+                        <li><a href="https://www.instagram.com/luis.electronic/" target="_blank"><img width="20" height="20" src="/img/instagram.webp" alt="instagram"></a></li>
+                        <li><a href="https://www.youtube.com/c/LuisElectronic" target="_blank"><img width="20" height="20" src="/img/youtube.webp" alt="youtube"></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <main class="main">
+            <section id="articles">
+                <div class="principal">
+                    <!--/*---------*/-->
+                    <h1>Lo sentimos !</h1>
+                    <h2>La pagina que buscas no existe</h2>
+                    <p>Puede ser que has escrito mal la dirección, o la hemos hemos quitado por alguna razon</p>
+                    <p>Puedes ir al menu de la pagina para encontrar lo que quieres.</p>
+                    <p><a href="https://www.luiselectronic.com/" style="text-align: center;">LuisElectronic</a></p>
+                    <!--/*---------*/-->
+                </div>
+            </section>
+        </main>
+
+        <aside class="aside">
+            <h3>Buscar en Luis Electronic</h3>
+            <div id="search">
+                <form>
+                    <label>
+                        <input type="text">
+                        <button type="submit" >&gt;</button>
+                    </label>
+                </form>
+            </div>
+        </aside>
+
+        <div class="clearfix"></div>
+
+        <footer class="footer">
+            <div class="logo">
+                <img width="300" height="128" src="/img/logo.webp" alt="luiselectronic" class="logo">
+            </div>
+            <div class="options2">
+                <ul>
+                    <li><a class="first" href="https://www.luiselectronic.com/">INICIO</a></li>
+                    <li><a href="https://www.luiselectronic.com/electronica/menu">ELECTRÓNICA</a></li>
+                    <li><a href="https://www.luiselectronic.com/programacion/menu">PROGRAMACIÓN</a></li>
+                    <li><a href="https://www.luiselectronic.com/tecnologia/menu">TECNÓLOGIA</a></li>
+                    <li><a href="https://www.luiselectronic.com/sistemas/menu">SISTEMAS</a></li>
+                    <li><a href="https://www.luiselectronic.com/otros/menu">OTROS</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <ul>
+                    <li><button class="first btn-abrir-popup" id="btn-abrir-popup" >CONTACTAME</button></li>
+                </ul>
+            </div>
+            <div class="social">
+                <h4>SOCIAL</h4>
+                <a href="https://www.facebook.com/Luis.Electronic.2" target="_blank"><img width="30" height="30" src="/img/facebook.webp" alt="facebook"></a>
+                <a href="https://www.instagram.com/luis.electronic/" target="_blank"><img width="30" height="30" src="/img/instagram.webp" alt="instagram"></a>
+                <a href="https://www.youtube.com/c/LuisElectronic" target="_blank"><img width="30" height="30" src="/img/youtube.webp" alt="youtube"></a>
+            </div>
+            <div class="copy">
+                <h4>&copy; 2022 LuisElectronic</h4>
+            </div>
+            <button class="up"><img width="30" height="30" src="/img/flecha.webp" alt="Arriba"> Arriba</button>
+        </footer>
+        
+        
+        <div class="overlay" id="overlay">
+            <div class="popup" id="popup">
+        
+                <div class="contact-wrapper">
+                    <div class="contact-form">
+                        <button id="btn-cerrar-popup" class="btn-cerrar-popup">X</button>
+                        <img width="100" height="97" class="logo" src="/img/LogoHigh.webp" alt="LuisElectronic">
+                        <h4>FORMULARIO DE CONTACTO</h4>
+                        <form id="form" action="https://formspree.io/f/xeqnrgwe" method="POST">
+                            <p>
+                                <input type="text" name="name" placeholder="Nombre..." required>
+                            </p>
+                            <p>
+                                <input type="email" name="email" placeholder="Correo..." required>
+                            </p>
+                            <p>
+                                <input type="text" name="affair" placeholder="Asunto..." required>
+                            </p>
+                            <p>
+                                <textarea name="message" rows="3" placeholder="Mensaje..." required></textarea>
+                            </p>
+                            
+                                <button type="submit">Enviar</button>
+                            
+                        </form>
+                    </div>
+        
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

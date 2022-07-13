@@ -1,0 +1,19 @@
+@media (max-width: 739.98px) {
+    /*---------*/
+    #articles article{
+        width: 90%;
+        text-align: center;
+    }
+    #articles img{
+        margin: auto;
+        padding: 0;
+        padding-top: 40px;
+        float: none; 
+    }
+    #articles h2{ margin-top: 10px; }
+    #articles p{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    /*---------*/
+}

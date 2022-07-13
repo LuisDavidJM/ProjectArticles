@@ -1,0 +1,80 @@
+body{
+    --box-white: white;
+    --l-white: black;
+}
+body.dark{
+    --box-white: black;
+    --l-white: white;
+}
+/*---------*/
+#articles{
+    width: 95%;
+    margin: auto;
+  }
+  #articles img{
+      width: 200px;
+      float: left;
+      padding-right: 30px;
+  }
+  #articles h1{
+    color: var(--l-white);
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: 75px;
+    line-height: 75px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    background: var(--box-white);
+    box-shadow: 0px 1px 0px rgba(255, 0, 0, 0.15), 1px 2px 0px rgba(255, 0, 0, 0.15), 2px 3px 0px rgba(255, 0, 0, 0.15), 3px 4px 0px rgba(255, 0, 0, 0.15);
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  #articles article{
+    width: 97.5%;
+    height: auto;
+    min-height: 135px;
+    border: 1px solid #ccc;
+    margin: 40px auto;
+    padding: 20px;
+    background: var(--box-white);
+    color: var(--l-white);
+    box-shadow: 1px 1px 5px rgba(255, 0, 0, 0.35);
+  }
+  #articles h2{
+    display: block;
+    font-size: 23px;
+    margin: 20px 3px;
+    margin-top: 30px;
+  }
+  #articles h2 a{
+    text-decoration: none;
+    color: #00538c;
+  }
+  #articles h2 a:hover{
+    text-decoration: underline;
+  }
+  #articles .data{
+    float: right;
+    background: rgba(255, 0, 0, 0.65);
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    margin: -10px;
+    padding: 4px;
+    font-size: 13px;
+    border-radius: 0px 0px 0px 5px;
+  }
+  #articles .data span{
+    margin: 6px;
+  }
+  #articles p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    font-size: 15px;
+  }
+  /*---------*/

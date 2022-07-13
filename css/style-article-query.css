@@ -1,0 +1,51 @@
+@media (min-width: 1055px) and (max-width: 1334.98px) {
+    .principal .date{
+        margin-right: 60%;
+    }
+    .principal .text{
+        margin: 40px 100px;
+    }
+}
+@media (min-width: 740px) and (max-width: 1054.98px) {
+    .principal .date{
+        margin-right: 50%;
+    }
+    .principal .text{
+        margin: 40px 50px;
+    }
+}
+@media (max-width: 739.98px) {
+    .principal{
+        width: 100%;
+    }
+    .principal .date{
+        margin-right: 47%;
+    }
+    .principal .text{
+        margin: 40px 40px;
+    }
+    #articles h2{
+        margin: 40px 30px;
+        line-height: 40px;
+    }
+    #articles .proyect-info h2{
+        margin: 5px 20px;
+        line-height: 30px;
+    }
+    .text p{
+        text-align: justify;
+        font-size: 16px;
+        word-spacing: 0.25rem;
+    }
+    .adapt{
+        font-size: 15px;
+        }
+}
+@media (max-width: 499.98px) {
+    .proyect img{
+        height: 220px;
+    }
+    .principal .date{
+        margin-right: 30%;
+    }
+}
